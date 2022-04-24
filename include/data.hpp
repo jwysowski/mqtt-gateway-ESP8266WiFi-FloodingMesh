@@ -3,7 +3,7 @@
 
 #include "stdint.h"
 
-#define   MESH_PREFIX     "esp_mesh"
+#define   MESH_PREFIX     "esp_floodingmesh"
 #define   MESH_PASSWORD   "123456789"
 #define   MESH_PORT       5555
 
