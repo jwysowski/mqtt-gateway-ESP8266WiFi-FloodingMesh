@@ -1,7 +1,6 @@
 #include <PubSubClient.h>
 #include <FloodingMesh.h>
 #include <ESP8266WiFi.h>
-
 #include "handlers.hpp"
 
 #define ASCII_OFFSET    48

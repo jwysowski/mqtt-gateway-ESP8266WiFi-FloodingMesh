@@ -64,7 +64,6 @@ bool received_callback(String &msg, FloodingMesh &mesh_instance) {
 	const char *message = msg.c_str();
 
 	mqtt.publish(report, message);
-
 	decode_msg(message, frame);
 	if (!validate(frame))
 		return false;
